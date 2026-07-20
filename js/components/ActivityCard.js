@@ -14,6 +14,7 @@ export const ActivityCard = {
       <div class="card-meta">
         <span>📍 {{ activity.location }}</span>
         <span>🕐 {{ plannedTimeStr }}</span>
+        <span v-if="activity.contact">💬 {{ activity.contact }}</span>
       </div>
       <div class="card-footer">
         <div class="creator">

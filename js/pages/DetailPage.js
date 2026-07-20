@@ -26,6 +26,10 @@ export const DetailPage = {
           <span>👥</span>
           <span>{{ activity.participants.length + 1 }}/{{ activity.maxParticipants }} 人参加</span>
         </div>
+        <div class="detail-info-item" v-if="activity.contact">
+          <span>💬</span>
+          <span>{{ activity.contact }}</span>
+        </div>
         <div class="detail-info-item">
           <span>🙋</span>
           <span>发起人：{{ activity.creatorAvatar }} {{ activity.creatorName }}</span>

@@ -63,6 +63,15 @@ export const ActivityForm = {
       </div>
 
       <div class="form-group">
+        <label class="form-label">联系方式（京ME群/微信群）</label>
+        <input
+          class="form-input"
+          v-model="form.contact"
+          placeholder="京ME群号、微信群名或个人京ME号"
+        />
+      </div>
+
+      <div class="form-group">
         <label class="form-label">最多几人参加</label>
         <input
           class="form-input"
@@ -85,6 +94,7 @@ export const ActivityForm = {
         title: '',
         description: '',
         location: '',
+        contact: '',
         plannedTime: '',
         maxParticipants: 4
       },
