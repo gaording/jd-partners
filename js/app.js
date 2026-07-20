@@ -3,12 +3,14 @@ import { NavBar } from './components/NavBar.js';
 import { HomePage } from './pages/HomePage.js';
 import { CreatePage } from './pages/CreatePage.js';
 import { DetailPage } from './pages/DetailPage.js';
+import { GroupsPage } from './pages/GroupsPage.js';
 import { MyPage } from './pages/MyPage.js';
 
 const routes = [
   { path: '/', component: HomePage },
   { path: '/create', component: CreatePage },
   { path: '/detail/:id', component: DetailPage },
+  { path: '/groups', component: GroupsPage },
   { path: '/my', component: MyPage }
 ];
 
