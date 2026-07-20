@@ -1,0 +1,46 @@
+:root {
+  --color-primary: #FF6B6B;
+  --color-secondary: #4ECDC4;
+  --color-bg: #F8F9FA;
+  --color-card: #FFFFFF;
+  --color-text: #2D3436;
+  --color-text-secondary: #636E72;
+  --color-border: #E9ECEF;
+
+  --color-study: #6C5CE7;
+  --color-gym: #00B894;
+  --color-meal: #FDCB6E;
+  --color-explore: #0984E3;
+
+  --color-study-bg: #F3F0FF;
+  --color-gym-bg: #E6FFF7;
+  --color-meal-bg: #FFF8E1;
+  --color-explore-bg: #E3F2FD;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 50%;
+
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.06);
+  --shadow-md: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-lg: 0 4px 16px rgba(0,0,0,0.12);
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-base: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  --font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-xs: 12px;
+  --font-sm: 13px;
+  --font-base: 14px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 24px;
+
+  --nav-height: 56px;
+  --header-height: 48px;
+}
