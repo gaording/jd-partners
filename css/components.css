@@ -566,6 +566,30 @@
   white-space: nowrap;
 }
 
+.group-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: var(--space-sm);
+}
+
+.tag-pill {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  background: var(--color-bg);
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tag-pill:active {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
 .group-contact {
   display: flex;
   align-items: center;
@@ -595,6 +619,28 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.tag-hints {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.tag-hint {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: var(--font-xs);
+  background: var(--color-bg);
+  color: var(--color-primary);
+  border: 1px dashed var(--color-primary);
+  cursor: pointer;
+}
+
+.tag-hint:active {
+  background: var(--color-primary);
+  color: #fff;
 }
 
 /* FAB for groups page */
