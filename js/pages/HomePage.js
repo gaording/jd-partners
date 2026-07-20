@@ -5,7 +5,7 @@ export const HomePage = {
   components: { ActivityCard },
   template: `
     <div class="page">
-      <h1 class="page-title">🤝 找搭子</h1>
+      <h1 class="page-title">🤝 JD Partners</h1>
 
       <div class="filter-tabs">
         <button

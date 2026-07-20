@@ -105,7 +105,7 @@ export const DetailPage = {
     },
     handleShare() {
       const url = window.location.href;
-      const text = `我在「搭子」发了个活动：${this.activity.title}\n快来看看 → ${url}`;
+      const text = `我在「JD Partners」发了个活动：${this.activity.title}\n快来看看 → ${url}`;
       if (navigator.clipboard) {
         navigator.clipboard.writeText(text).then(() => {
           showToast('已复制分享文案到剪贴板');
